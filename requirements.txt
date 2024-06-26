@@ -1,4 +1,0 @@
-streamlit
-lottie
-streamlit lottie
-lottie streamlit
