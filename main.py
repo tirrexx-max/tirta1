@@ -14,13 +14,6 @@ def load_lottieurl(url):
         return None
     return r.json()
 
-#function css
-def local_css(file_name): 
-    with open(file_name) as f:
-        st.markdown(f"<style>{f.read()}</style>",unsafe_allow_html=True)
-
-#ambil file css
-local_css("style/style.css")
 
 lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
 img_contact_form = Image.open("image/3-Easy-Eco-Friendly-Lifestyle-Changes-You-Need-To-Make-7.webp")
